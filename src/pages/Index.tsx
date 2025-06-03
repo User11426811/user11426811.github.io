@@ -31,7 +31,7 @@ const Index = () => {
         
         .hero-bg {
           background: linear-gradient(rgba(26, 26, 26, 0.4), rgba(26, 26, 26, 0.4)), 
-                      url('images/image1.jpeg');
+                      url('/image1.jpeg');
           background-size: cover;
           background-position: center;
           background-attachment: fixed;
@@ -114,7 +114,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="images/image5.png"
+                src="/image5.png"
                 alt="Atelier de luxe" 
                 className="w-9/12 rounded-lg shadow-lg gold-border border-2"
               />
@@ -151,7 +151,7 @@ const Index = () => {
             </div>
             <div>
               <img 
-                src="images/image2.png"
+                src="/image2.png"
                 alt="Atelier L'Héritage d'Aphrodite"
                 className="w-9/12 rounded-lg shadow-lg gold-border border-2"
               />
@@ -168,7 +168,7 @@ const Index = () => {
           </h2>
           <div className="flex flex-col items-center space-y-8">
             <img 
-              src="images/image4.png"
+              src="/image4.png"
               alt="Margaux Leblanc, CEO" 
               className="w-48 h-50 rounded-full object-cover shadow-lg gold-border border-4"
             />
@@ -181,6 +181,7 @@ const Index = () => {
                 Visionnaire passionnée par l'excellence française, elle dirige aujourd'hui notre maison avec une philosophie claire : préserver l'héritage artisanal tout en embrassant l'innovation. Son leadership inspire quotidiennement nos équipes dans la quête perpétuelle de la perfection.
               </p>
             </div>
+
           </div>
         </div>
       </section>
