@@ -114,7 +114,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/image5.png"
+                src="public/image5.png"
                 alt="Atelier de luxe" 
                 className="w-9/12 rounded-lg shadow-lg gold-border border-2"
               />
